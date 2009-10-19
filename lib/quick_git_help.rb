@@ -1,5 +1,5 @@
 
-module Quickgithelp
+module QuickGitHelp
 
   # :stopdoc:
   VERSION = '1.0.0'
@@ -42,8 +42,8 @@ module Quickgithelp
     Dir.glob(search_me).sort.each {|rb| require rb}
   end
 
-end  # module Quickgithelp
+end  # module QuickGitHelp
 
-Quickgithelp.require_all_libs_relative_to(__FILE__)
+QuickGitHelp.require_all_libs_relative_to(__FILE__)
 
 # EOF
